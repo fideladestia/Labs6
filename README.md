@@ -64,6 +64,9 @@ def menu():
 
 ![gambar3](ss/ss3.PNG)
 
+- code dibawah untuk membuat fungsi tambah yang ada dalam program ini
+
+```python
 def tambah():
     system('cls')
     judul()
@@ -92,7 +95,10 @@ def tambah():
     print('Data Tersimpan'.center(40))
     kembali = input('Kembali [Enter]')
     menu()
+```
+- berikut tampilan ketika program dijalankan
 
+![gambar4](ss/ss4.PNG)
 
 def tampilkan():
     system('cls')
