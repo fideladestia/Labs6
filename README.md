@@ -100,6 +100,9 @@ def tambah():
 
 ![gambar4](ss/ss4.PNG)
 
+- Code dibawah adalah untuk membuat fungsi tampilkan yang ada dalam program ini
+
+```python
 def tampilkan():
     system('cls')
     judul()
@@ -115,6 +118,10 @@ def tampilkan():
         print('-----------------------------')
     kembali = input('Kembali Tekan [Enter]')
     menu()
+```
+- berikut tampilan ketika program dijalankan
+
+![gambar5](ss/ss5.PNG)
 
 def ubah():
     rubah = input('Ubah Biodata Tekan [B]   : ')
