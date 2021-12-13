@@ -1,5 +1,7 @@
 # Labs6
 
+* Berikut ini adalah flowchatnya
+
 ![gambar2](ss/ssflowchart1.png)
 
 ## Latihan 1
