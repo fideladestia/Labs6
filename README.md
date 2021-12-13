@@ -123,6 +123,9 @@ def tampilkan():
 
 ![gambar5](ss/ss5.PNG)
 
+- Code dibawah adalah untuk membuat fungsi merubah nama pada program ini.
+
+```python
 def ubah():
     rubah = input('Ubah Biodata Tekan [B]   : ')
     if rubah == 'B' or rubah == 'b':
@@ -134,7 +137,12 @@ def ubah():
             s_nama[i] = namabaru
     kembali = input('Kembali Tekan [Enter]')
     menu()
+```
+![gambar6](ss/ss6.PNG)    
 
+- berikut code untuk membuat fungsi menghapus salah satu dari data dalam list.
+
+```python
 def hapus():
     system('cls')
     judul()
@@ -157,7 +165,14 @@ def hapus():
     print('Data Berhasil Di Hapus')
     kembali = input('Kembali Tekan [Enter]')
     menu()
+```
+- Berikut program ketika dijalankan
 
+![gambar7](ss/ss7.PNG)
+
+- Dan berikut adalah program untuk fungsi mengakhiri program, dengan menekan angka 5 maka akan menyekesaikan program.
+
+```python
 def selesai():
     system('cls')
     menu()
@@ -165,6 +180,5 @@ def selesai():
 menu()
 ```
 
-* Berikut hasil programnya ketika dijalankan
+### Sekian dan terima kasih
 
-![gambar1](ss/ss1.PNG)
