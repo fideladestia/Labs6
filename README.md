@@ -6,24 +6,33 @@
 
 ## Latihan 1
 
-* Berikut ini adalah programnya
+* Berikut adalah penjelasannya
+- Dibawah ini adalah code untuk meng-import, karena kita akan gunakan system, untuk mendapatkan clear screen yang ada dalam system os, berikut code nya:
 
 ```python
 from os import system
+```
+- Dibawah ini code untuk membuat list yang akan kita gunakan.
+
+```python
 s_nama = []
 s_nim = []
 s_tugas = []
 s_uts = []
 s_uas = []
 s_akhir = []
+```
+- Dibawah ini code untuk membuat fungsi judul, karena didalam fungsi, kita dapat memanggil fungsi tersebut berkali-kali tanpa harus mengulang codingannya.
 
-
+```python
 def judul():
     print('==================================')
     print('|     Daftar Nilai Mahasiswa     |')
     print('==================================')
+```
+- Dibawah adalah code untuk membuat fungsi menu
 
-
+```python
 def menu():
     system('cls')
     print('=====================================')
@@ -50,7 +59,10 @@ def menu():
         tidak = input('Menu Tidak Ada')
         system('cls')
         menu()
+```
+- berikut tampilan ketika program dijalankan
 
+![gambar3](ss/ss3.PNG)
 
 def tambah():
     system('cls')
